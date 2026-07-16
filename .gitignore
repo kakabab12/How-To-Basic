@@ -1,6 +1,18 @@
 # Claude Code 로컬 설정 (개인 환경 설정이라 공유하지 않음)
 .claude/
 
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 실습 중 생성되는 DB 파일 — schema.sql 로 언제든 다시 만든다
+# (py db.py init)
+*.db
+*.sqlite
+*.sqlite3
+
 # OS
 Thumbs.db
 desktop.ini
